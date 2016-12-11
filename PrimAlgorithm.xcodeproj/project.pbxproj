@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8635291E1DFDFB3F0039E58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635290F1DFDFB3F0039E58C /* AppDelegate.swift */; };
+		8635291F1DFDFB3F0039E58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863529101DFDFB3F0039E58C /* Assets.xcassets */; };
+		863529201DFDFB3F0039E58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863529111DFDFB3F0039E58C /* LaunchScreen.storyboard */; };
+		863529211DFDFB3F0039E58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863529131DFDFB3F0039E58C /* Main.storyboard */; };
+		863529221DFDFB3F0039E58C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 863529151DFDFB3F0039E58C /* Info.plist */; };
+		863529231DFDFB3F0039E58C /* PrimAlgorithm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863529161DFDFB3F0039E58C /* PrimAlgorithm.storyboard */; };
+		863529241DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 863529171DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodeld */; };
+		863529251DFDFB3F0039E58C /* PrimAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863529191DFDFB3F0039E58C /* PrimAlgorithmViewController.swift */; };
+		863529261DFDFB3F0039E58C /* kruskal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8635291B1DFDFB3F0039E58C /* kruskal.gif */; };
+		863529271DFDFB3F0039E58C /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 8635291C1DFDFB3F0039E58C /* new.png */; };
+		863529281DFDFB3F0039E58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635291D1DFDFB3F0039E58C /* ViewController.swift */; };
+		863529371DFDFB9E0039E58C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 863529361DFDFB9E0039E58C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8635290F1DFDFB3F0039E58C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		863529101DFDFB3F0039E58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863529121DFDFB3F0039E58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		863529141DFDFB3F0039E58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		863529151DFDFB3F0039E58C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863529161DFDFB3F0039E58C /* PrimAlgorithm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrimAlgorithm.storyboard; sourceTree = "<group>"; };
+		863529181DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrimAlgorithm.xcdatamodel; sourceTree = "<group>"; };
+		863529191DFDFB3F0039E58C /* PrimAlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimAlgorithmViewController.swift; sourceTree = "<group>"; };
+		8635291B1DFDFB3F0039E58C /* kruskal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kruskal.gif; sourceTree = "<group>"; };
+		8635291C1DFDFB3F0039E58C /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		8635291D1DFDFB3F0039E58C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		863529361DFDFB9E0039E58C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		863B976B1DFD6EA5006A0FD1 /* PrimAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863B97681DFD6EA5006A0FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8635290E1DFDFB3F0039E58C /* PrimAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				8635290F1DFDFB3F0039E58C /* AppDelegate.swift */,
+				863529101DFDFB3F0039E58C /* Assets.xcassets */,
+				863529111DFDFB3F0039E58C /* LaunchScreen.storyboard */,
+				863529131DFDFB3F0039E58C /* Main.storyboard */,
+				863529151DFDFB3F0039E58C /* Info.plist */,
+				863529161DFDFB3F0039E58C /* PrimAlgorithm.storyboard */,
+				863529171DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodeld */,
+				863529191DFDFB3F0039E58C /* PrimAlgorithmViewController.swift */,
+				8635291A1DFDFB3F0039E58C /* Resources */,
+				8635291D1DFDFB3F0039E58C /* ViewController.swift */,
+			);
+			path = PrimAlgorithm;
+			sourceTree = "<group>";
+		};
+		8635291A1DFDFB3F0039E58C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8635291B1DFDFB3F0039E58C /* kruskal.gif */,
+				8635291C1DFDFB3F0039E58C /* new.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		863B97621DFD6EA5006A0FD1 = {
+			isa = PBXGroup;
+			children = (
+				863529361DFDFB9E0039E58C /* Default-568h@2x.png */,
+				8635290E1DFDFB3F0039E58C /* PrimAlgorithm */,
+				863B976C1DFD6EA5006A0FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863B976C1DFD6EA5006A0FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863B976B1DFD6EA5006A0FD1 /* PrimAlgorithm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863B976A1DFD6EA5006A0FD1 /* PrimAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863B97961DFD6EA5006A0FD1 /* Build configuration list for PBXNativeTarget "PrimAlgorithm" */;
+			buildPhases = (
+				863B97671DFD6EA5006A0FD1 /* Sources */,
+				863B97681DFD6EA5006A0FD1 /* Frameworks */,
+				863B97691DFD6EA5006A0FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimAlgorithm;
+			productName = RedRuleBlueRule;
+			productReference = 863B976B1DFD6EA5006A0FD1 /* PrimAlgorithm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863B97631DFD6EA5006A0FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Potari Gabor";
+				TargetAttributes = {
+					863B976A1DFD6EA5006A0FD1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DH2WB68EK8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 863B97661DFD6EA5006A0FD1 /* Build configuration list for PBXProject "PrimAlgorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863B97621DFD6EA5006A0FD1;
+			productRefGroup = 863B976C1DFD6EA5006A0FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863B976A1DFD6EA5006A0FD1 /* PrimAlgorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863B97691DFD6EA5006A0FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863529231DFDFB3F0039E58C /* PrimAlgorithm.storyboard in Resources */,
+				863529371DFDFB9E0039E58C /* Default-568h@2x.png in Resources */,
+				863529201DFDFB3F0039E58C /* LaunchScreen.storyboard in Resources */,
+				863529271DFDFB3F0039E58C /* new.png in Resources */,
+				8635291F1DFDFB3F0039E58C /* Assets.xcassets in Resources */,
+				863529211DFDFB3F0039E58C /* Main.storyboard in Resources */,
+				863529261DFDFB3F0039E58C /* kruskal.gif in Resources */,
+				863529221DFDFB3F0039E58C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863B97671DFD6EA5006A0FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863529251DFDFB3F0039E58C /* PrimAlgorithmViewController.swift in Sources */,
+				863529241DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodeld in Sources */,
+				8635291E1DFDFB3F0039E58C /* AppDelegate.swift in Sources */,
+				863529281DFDFB3F0039E58C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		863529111DFDFB3F0039E58C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863529121DFDFB3F0039E58C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		863529131DFDFB3F0039E58C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863529141DFDFB3F0039E58C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863B97941DFD6EA5006A0FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		863B97951DFD6EA5006A0FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863B97971DFD6EA5006A0FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "$(SRCROOT)/PrimAlgorithm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.potarig.PrimAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		863B97981DFD6EA5006A0FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "$(SRCROOT)/PrimAlgorithm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.potarig.PrimAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863B97661DFD6EA5006A0FD1 /* Build configuration list for PBXProject "PrimAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863B97941DFD6EA5006A0FD1 /* Debug */,
+				863B97951DFD6EA5006A0FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863B97961DFD6EA5006A0FD1 /* Build configuration list for PBXNativeTarget "PrimAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863B97971DFD6EA5006A0FD1 /* Debug */,
+				863B97981DFD6EA5006A0FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		863529171DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				863529181DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodel */,
+			);
+			currentVersion = 863529181DFDFB3F0039E58C /* PrimAlgorithm.xcdatamodel */;
+			path = PrimAlgorithm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 863B97631DFD6EA5006A0FD1 /* Project object */;
+}
